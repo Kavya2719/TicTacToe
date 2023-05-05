@@ -1,0 +1,113 @@
+.App {
+  text-align: center;
+}
+
+.square {
+  padding: 16px 19px;
+  height: 100%;
+  font-size: large;
+}
+.toggleSquare {
+  background-color: rgb(255, 255, 143);
+  padding: 16px 19px;
+  height: 100%;
+  font-size: large;
+}
+
+.status {
+  font-size: x-large;
+  font-weight: bold;
+  margin: 10px 0px;
+  height: 100%;
+}
+.toggleStatus {
+  background-color: rgb(255, 255, 143);
+  font-size: x-large;
+  font-weight: bold;
+  margin: 10px 0px;
+  height: 100%;
+}
+
+.congo{
+  color: black;
+  height: 100%;
+  text-align: center;
+  font-size: x-large;
+  padding: 0 20%;
+}
+.congoMessage{
+  background-color:rgb(255, 255, 143);
+}
+.tictactoe{
+  height: 100%;
+  margin: 10px;
+  margin-top: 40px; 
+  color: rgb(65, 105, 225);
+  text-align:center;
+  font-size: xx-large;
+}
+.tictactoe:hover{
+  background-color: rgb(137, 207, 240);
+  color: rgb(0, 71, 171);
+}
+.toggleTicTacToe{
+  background-color: rgb(137, 207, 240);
+  color: rgb(0, 71, 171);
+  height: 100%;
+  margin: 10px;
+  margin-top: 40px; 
+  text-align:center;
+  font-size: xx-large;
+}
+.toggleTicTacToe:hover{
+  color: rgb(65, 105, 225);
+background-color: inherit;
+}
+.title{
+  float:left;
+  width: 40%;
+}
+
+body {
+  background-color: aquamarine;
+}
+button:hover{
+  background-color: 	rgb(152, 251, 152);
+}
+li{
+  font-size: medium;
+}
+
+.board {
+  float:left;
+  margin: 10px;
+  text-align: center;
+}
+.other {
+  float:left;
+  margin-top: 30px;
+  margin-left: 5%;
+  height: 200px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+.listbuttons{
+  font-weight: 5px;
+  font-size:medium;
+  margin: 4px;
+}
+
+.sortBlock{
+  height: 200px;
+  width: 10%;
+  display: inline-block;
+  text-align: center;
+}
+.sort{
+  padding-top: 50%;
+  font-size: large;
+}
+.inc, .dec{
+  font-size:x-large;
+  margin: 3%;
+}
