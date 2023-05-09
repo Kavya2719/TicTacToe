@@ -110,6 +110,7 @@ export default function Game() {
     return "Placed " + player + " at " + "{" + ToRowColumn[ind][0] + " " + ToRowColumn[ind][1]+ "}";
   }
 
+  
   const moves = history.map((squares, ind) => {
     let index = decr? history.length - ind - 1: ind; 
 
