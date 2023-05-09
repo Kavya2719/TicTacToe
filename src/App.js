@@ -145,7 +145,10 @@ export default function Game() {
     );
   });
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> new_branch
   let congo = "";
   if(winner && winner !== undefined) congo = <h3 className="congoMessage"> Congratulations {winner} !! </h3>
 
