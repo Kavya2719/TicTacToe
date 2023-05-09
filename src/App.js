@@ -145,7 +145,6 @@ export default function Game() {
     );
   });
 
-
   let congo = "";
   if(winner && winner !== undefined) congo = <h3 className="congoMessage"> Congratulations {winner} !! </h3>
 
